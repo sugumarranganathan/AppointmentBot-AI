@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AppointmentBot AI</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+
+    <!-- Header -->
+
+    <div class="header">
+
+        <div class="logo">
+
+            🤖
+
+        </div>
+
+        <div>
+
+            <h1>AppointmentBot AI</h1>
+
+            <p>Smart Appointment Assistant</p>
+
+        </div>
+
+    </div>
+
+    <!-- Chat Box -->
+
+    <div id="chatbox" class="chatbox">
+
+        <!-- Welcome Message -->
+
+        <div class="bot-message">
+
+            <div class="avatar">
+
+                🤖
+
+            </div>
+
+            <div class="message">
+
+                <h3>Hello 👋</h3>
+
+                <p>
+
+                    Welcome to <b>AppointmentBot AI</b>.
+
+                </p>
+
+                <p>
+
+                    I can detect whether a message is an
+                    appointment booking request.
+
+                </p>
+
+                <p>
+
+                    Try:
+
+                </p>
+
+                <ul>
+
+                    <li>Can I book an appointment tomorrow?</li>
+
+                    <li>I need to see the doctor on Friday.</li>
+
+                    <li>Reserve a slot for Monday.</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Typing -->
+
+    <div id="typing" class="typing">
+
+        🤖 AppointmentBot AI is typing...
+
+    </div>
+
+    <!-- Input Area -->
+
+    <div class="input-area">
+
+        <input
+
+            type="text"
+
+            id="message"
+
+            placeholder="Type your message here..."
+
+            autocomplete="off"
+
+        >
+
+        <button id="sendBtn">
+
+            <i class="fas fa-paper-plane"></i>
+
+        </button>
+
+        <button id="clearBtn">
+
+            <i class="fas fa-trash"></i>
+
+        </button>
+
+    </div>
+
+    <!-- Examples -->
+
+    <div class="examples">
+
+        <button class="example-btn">
+
+            Can I book an appointment tomorrow?
+
+        </button>
+
+        <button class="example-btn">
+
+            Thank you
+
+        </button>
+
+        <button class="example-btn">
+
+            Reserve a slot for Monday
+
+        </button>
+
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+
+        <p>
+
+            AppointmentBot AI © 2026
+
+        </p>
+
+        <p>
+
+            Built with Flask • Machine Learning • NLP
+
+        </p>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+
+</html>
