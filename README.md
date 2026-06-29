@@ -1,5 +1,8 @@
 # 🤖 AppointmentBot AI
 
+
+https://colab.research.google.com/drive/1XbCJZqd38oqFWWh9RMsVhTBm5mmVFYoD
+
 https://sugumarranganathan-appointmentbot-ai.hf.space
 
 **Smart Appointment Booking Message Classifier using Natural Language Processing (NLP) and Machine Learning**
