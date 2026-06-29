@@ -164,7 +164,4 @@ AppointmentBot-AI/
 
 # 👨‍💻 Prepared by
 
-**Sugumar R, M.B.A.,**
-
-
-⭐ If you like this project, please give it a **Star ⭐** on GitHub.
+**R. Sugumar, M.B.A.,**
